@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar{
+  border-bottom: 2px solid #731054;
+  background-color: white!important;
+}
+.upload-text{
+  text-align: left;
+  margin-top: 30px;
+}
+.title-img{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-img h5{
+  font-family: 'Montserrat';
+  font-size: 20px;
+  color:#000000;
+}
+
+.upload-text{
+font-family: 'Poppins';
+font-size: 24px;
+font-weight: bold;
+}
+.upload-btn{
+
+  background: linear-gradient(295.67deg, #DE0D6F 16.23%, #731054 83.77%);
+  color: white;
+  width: 100%;
+  border: none!important;
+  padding: 8px!important;
+  border-radius: 8px;
+
+}
+.modal-header{
+  border-bottom:none!important;
+}
+.modal-footer{
+  border:none;
+  justify-content: center!important;
+
+}
+.modal-footer .submit-btn{
+  
+    background: linear-gradient(295.67deg, #DE0D6F 16.23%, #731054 83.77%);
+    font-weight: bold;
+    border: none;
+    padding: 8px 15px;
+ 
+}
+.title {
+  text-align: center;
+  width: 100%;
+  font-family: 'Poppins';
+  font-size: 20px!important;
+  font-weight: 700!important;
+}
+.desc{
+  text-align: center;
+    color: #666666;
+}
+.form-details select{
+  background-color: #F2F2F2;
+  margin: 10px 0 30px 0;
+  padding: 10px;
+  font-family: 'Montserrat';
+}
+.form-details input{
+  color: #B2B2B2;
+  background-color: #F2F2F2;
+  font-family: 'Montserrat';
+}
+.delete-btn{
+  border:none;
+  background-color: transparent;
+}
+.color{
+ color: #FF6079;
+}
+.show-content p{
+  border: 1px solid #E5E5E5;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 30px 0;
+    padding: 8px;
+    border-radius: 8px;
+}
+.show-content .note-length{
+  background-color: #DE0D6F;
+  color: white;
+
+  border-radius: 21px;
+ 
+  padding: 4px 11px;
+}
+.note-table{
+
+  border-collapse: separate;
+  border-spacing: 0 10px;
+
+}
+.note-table thead tr{
+ border:1px solid white;
+ font-size: 16px;
+ font-family: 'Montserrat';
+}
+.note-table tbody tr{
+  font-size: 16px;
+  font-weight: normal;
+  background-color: white;
+  border-radius: 8px;
+ 
+  box-shadow: 4px 4px 16px rgb(0 0 0 / 10%)
+}
+.note-table tbody tr td{
+  width: 350px;
+
+  padding: 13px;
+}
